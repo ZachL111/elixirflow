@@ -1,0 +1,7 @@
+name,demand,capacity,latency,risk,weight,score,decision,reason
+baseline,59,89,19,10,6,97,review,data pipelines baseline scenario exercises the review path for bounded failure handling
+pressure,77,75,27,21,9,28,review,data pipelines pressure scenario exercises the review path for bounded failure handling
+surge,99,94,20,13,12,193,accept,data pipelines surge scenario keeps the local fixture within the modeled acceptance band
+degraded,67,58,33,25,5,-85,review,data pipelines degraded scenario exercises the review path for bounded failure handling
+recovery,87,106,20,14,11,168,accept,data pipelines recovery scenario keeps the local fixture within the modeled acceptance band
+boundary,75,83,20,16,7,83,review,data pipelines boundary scenario exercises the review path for bounded failure handling

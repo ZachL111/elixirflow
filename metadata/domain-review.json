@@ -1,0 +1,73 @@
+{
+  "repo": "elixirflow",
+  "language": "Elixir",
+  "category": "Data pipelines",
+  "goal": "Model bounded backpressure and retryable pipeline stages.",
+  "review_model": {
+    "terms": [
+      "stage pressure",
+      "backpressure",
+      "retry gap",
+      "output drift"
+    ],
+    "lanes": [
+      "ship",
+      "watch",
+      "hold"
+    ],
+    "score": "signal * 2 + slack + confidence - drag * 3",
+    "purpose": "surface the domain-specific cases that need the most careful review"
+  },
+  "cases": [
+    {
+      "name": "baseline",
+      "focus": "stage pressure",
+      "signal": 78,
+      "slack": 38,
+      "drag": 13,
+      "confidence": 71,
+      "score": 226,
+      "lane": "ship"
+    },
+    {
+      "name": "stress",
+      "focus": "backpressure",
+      "signal": 47,
+      "slack": 23,
+      "drag": 11,
+      "confidence": 89,
+      "score": 173,
+      "lane": "ship"
+    },
+    {
+      "name": "edge",
+      "focus": "retry gap",
+      "signal": 46,
+      "slack": 35,
+      "drag": 19,
+      "confidence": 56,
+      "score": 126,
+      "lane": "watch"
+    },
+    {
+      "name": "recovery",
+      "focus": "output drift",
+      "signal": 59,
+      "slack": 36,
+      "drag": 19,
+      "confidence": 85,
+      "score": 182,
+      "lane": "ship"
+    },
+    {
+      "name": "stale",
+      "focus": "stage pressure",
+      "signal": 84,
+      "slack": 21,
+      "drag": 18,
+      "confidence": 67,
+      "score": 202,
+      "lane": "ship"
+    }
+  ]
+}

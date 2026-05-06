@@ -1,68 +1,40 @@
 # elixirflow
 
-`elixirflow` explores data pipelines in Elixir. The repository keeps the core rule set compact, then surrounds it with examples that show how the decisions move.
+`elixirflow` is a compact Elixir repository for data pipelines, centered on this goal: Model bounded backpressure and retryable pipeline stages.
 
-## Elixirflow Notes
+## Problem It Tries To Make Smaller
 
-The quickest review path is the verifier first, then the fixtures, then the operations note. That order makes it easy to see whether the code, data, and explanation still agree.
+This is intentionally local and self-contained so it can be inspected without credentials, services, or seeded history.
 
-## Why This Exists
+## Elixirflow Review Notes
 
-This project keeps the domain idea close to the tests. That makes it useful as a reference implementation, a small experiment, or a starting point for a more specialized tool.
+Start with `stage pressure` and `retry gap`. Those cases create the widest score spread in this repo, so they are the best quick check when the model changes.
 
-## Feature Notes
+## Working Pieces
 
-- Models stage state with deterministic scoring and explicit review decisions.
-- Uses fixture data to keep backpressure changes visible in code review.
-- Includes extended examples for retry behavior, including `surge` and `degraded`.
-- Documents bounded queues tradeoffs in `docs/operations.md`.
-- Runs locally with a single verification command and no external credentials.
+- `fixtures/domain_review.csv` adds cases for stage pressure and backpressure.
+- `metadata/domain-review.json` records the same cases in structured form.
+- `config/review-profile.json` captures the read order and the two review questions.
+- `examples/elixirflow-walkthrough.md` walks through the case spread.
+- The Elixir code includes a review path for `stage pressure` and `retry gap`.
+- `docs/field-notes.md` explains the strongest and weakest cases.
 
-## Implementation Notes
+## Design Notes
 
-The interesting part is the boundary between accepted and reviewed scenarios. Extended examples sit near that boundary so future edits can show whether the model became more permissive or more cautious. The Elixir project uses Mix and ExUnit with clear data maps for each scenario.
+The implementation keeps the scoring rule plain: reward signal and confidence, preserve slack, penalize drag, then classify the result into a review lane.
 
-## Code Tour
+The added Elixir path is deliberately direct, with fixtures doing most of the explaining.
 
-- `lib`: library code
-- `test`: language test directory
-- `fixtures`: compact golden scenarios
-- `examples`: expanded scenario set
-- `metadata`: project constants and verification metadata
-- `docs`: operations and extension notes
-- `scripts`: local verification and audit commands
-
-## Local Setup
-
-Install Elixir and run the commands from the repository root. The project does not need credentials or a hosted service.
-
-## Try It
+## Example Run
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File scripts/verify.ps1
 ```
 
-This runs the language-level build or test path against the compact fixture set.
-
 ## Tests
 
-```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File scripts/audit.ps1
-```
+The check exercises the source code and the review fixture. `baseline` is the high score at 226; `edge` is the low score at 126.
 
-The audit command checks repository structure and README constraints before it delegates to the verifier.
+## Known Limits
 
-## Example Scenarios
-
-`baseline` is the first example I would inspect because it lands on the `review` path with a score of 97. The broader file also keeps `degraded` at -85 and `surge` at 193, which gives the model a useful low-to-high spread.
-
-## Boundaries
-
-The examples cover useful edges, not every edge. A larger version would add malformed-input tests, richer reports, and deeper domain parsers.
-
-## Roadmap
-
-- Add a loader for `examples/extended_cases.csv` and promote selected cases into the language test suite.
-- Add a short report command that prints the score breakdown for a single scenario.
-- Add malformed input fixtures so the failure path is as visible as the happy path.
-- Add one more data pipelines fixture that focuses on a malformed or borderline input.
+The fixture set is small enough to audit by hand. The next useful expansion is malformed input coverage, not extra surface area.

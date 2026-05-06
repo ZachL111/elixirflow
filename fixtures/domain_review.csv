@@ -1,0 +1,6 @@
+name,focus,signal,slack,drag,confidence,score,lane
+baseline,stage pressure,78,38,13,71,226,ship
+stress,backpressure,47,23,11,89,173,ship
+edge,retry gap,46,35,19,56,126,watch
+recovery,output drift,59,36,19,85,182,ship
+stale,stage pressure,84,21,18,67,202,ship

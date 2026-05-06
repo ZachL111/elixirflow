@@ -1,0 +1,29 @@
+{
+  "repo": "elixirflow",
+  "language": "Elixir",
+  "category": "Data pipelines",
+  "case_count": 5,
+  "score_formula": "signal * 2 + slack + confidence - drag * 3",
+  "lane_thresholds": {
+    "ship": 140,
+    "watch": 105
+  },
+  "read_order": [
+    "README.md",
+    "fixtures/domain_review.csv",
+    "metadata/domain-review.json",
+    "examples/elixirflow-walkthrough.md"
+  ],
+  "first_question": "Does stage pressure still dominate the review result?",
+  "second_question": "Is retry gap being penalized hard enough before output drift is trusted?",
+  "highest_case": {
+    "name": "baseline",
+    "focus": "stage pressure",
+    "score": 226
+  },
+  "lowest_case": {
+    "name": "edge",
+    "focus": "retry gap",
+    "score": 126
+  }
+}

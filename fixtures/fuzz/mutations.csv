@@ -1,0 +1,97 @@
+id,parent,focus,signal,slack,drag,confidence,score,lane,kind,invariant,mutation
+m001,g001,stage pressure,65,57,9,82,251,ship,baseline,monotonic-signal,raise-signal
+m002,g002,backpressure,94,26,30,103,257,ship,edge,drag-penalty,drop-slack
+m003,g003,retry gap,116,30,28,24,230,ship,recovery,confidence-floor,raise-drag
+m004,g004,output drift,87,64,39,27,187,ship,negative,lane-boundary,lower-confidence
+m005,g005,stage pressure,85,48,8,52,254,ship,baseline,monotonic-signal,raise-signal
+m006,g006,backpressure,74,32,15,63,213,ship,edge,drag-penalty,drop-slack
+m007,g007,retry gap,76,43,27,30,171,watch,recovery,confidence-floor,raise-drag
+m008,g008,output drift,81,10,45,91,173,watch,negative,lane-boundary,lower-confidence
+m009,g009,stage pressure,96,31,17,102,291,ship,baseline,monotonic-signal,raise-signal
+m010,g010,backpressure,49,0,25,63,111,hold,edge,drag-penalty,drop-slack
+m011,g011,retry gap,34,36,17,91,161,watch,recovery,confidence-floor,raise-drag
+m012,g012,output drift,74,17,25,10,125,watch,negative,lane-boundary,lower-confidence
+m013,g013,stage pressure,62,10,28,80,158,watch,baseline,monotonic-signal,raise-signal
+m014,g014,backpressure,90,0,16,70,218,ship,edge,drag-penalty,drop-slack
+m015,g015,retry gap,112,11,39,69,226,ship,recovery,confidence-floor,raise-drag
+m016,g016,output drift,39,49,21,17,102,hold,negative,lane-boundary,lower-confidence
+m017,g017,stage pressure,103,36,38,58,224,ship,baseline,monotonic-signal,raise-signal
+m018,g018,backpressure,81,56,6,77,283,ship,edge,drag-penalty,drop-slack
+m019,g019,retry gap,78,50,19,48,216,ship,recovery,confidence-floor,raise-drag
+m020,g020,output drift,36,44,17,68,150,watch,negative,lane-boundary,lower-confidence
+m021,g021,stage pressure,115,8,21,102,298,ship,baseline,monotonic-signal,raise-signal
+m022,g022,backpressure,57,52,45,23,99,hold,edge,drag-penalty,drop-slack
+m023,g023,retry gap,36,58,45,39,79,hold,recovery,confidence-floor,raise-drag
+m024,g024,output drift,73,58,36,38,170,watch,negative,lane-boundary,lower-confidence
+m025,g025,stage pressure,104,18,15,62,258,ship,baseline,monotonic-signal,raise-signal
+m026,g026,backpressure,109,0,6,29,235,ship,edge,drag-penalty,drop-slack
+m027,g027,retry gap,32,40,31,103,145,watch,recovery,confidence-floor,raise-drag
+m028,g028,output drift,85,59,35,88,247,ship,negative,lane-boundary,lower-confidence
+m029,g029,stage pressure,80,36,42,62,174,ship,baseline,monotonic-signal,raise-signal
+m030,g030,backpressure,67,51,5,90,265,ship,edge,drag-penalty,drop-slack
+m031,g031,retry gap,69,42,37,22,128,watch,recovery,confidence-floor,raise-drag
+m032,g032,output drift,97,35,44,66,207,ship,negative,lane-boundary,lower-confidence
+m033,g033,stage pressure,56,69,10,69,230,ship,baseline,monotonic-signal,raise-signal
+m034,g034,backpressure,69,42,37,68,174,ship,edge,drag-penalty,drop-slack
+m035,g035,retry gap,40,48,17,29,123,hold,recovery,confidence-floor,raise-drag
+m036,g036,output drift,117,48,13,44,300,ship,negative,lane-boundary,lower-confidence
+m037,g037,stage pressure,124,15,43,76,253,ship,baseline,monotonic-signal,raise-signal
+m038,g038,backpressure,117,25,17,47,272,ship,edge,drag-penalty,drop-slack
+m039,g039,retry gap,34,14,13,80,136,watch,recovery,confidence-floor,raise-drag
+m040,g040,output drift,40,41,23,88,163,watch,negative,lane-boundary,lower-confidence
+m041,g041,stage pressure,99,22,33,22,176,ship,baseline,monotonic-signal,raise-signal
+m042,g042,backpressure,75,4,39,38,114,hold,edge,drag-penalty,drop-slack
+m043,g043,retry gap,115,14,51,50,192,ship,recovery,confidence-floor,raise-drag
+m044,g044,output drift,94,16,6,48,240,ship,negative,lane-boundary,lower-confidence
+m045,g045,stage pressure,52,54,30,28,126,watch,baseline,monotonic-signal,raise-signal
+m046,g046,backpressure,65,30,23,102,216,ship,edge,drag-penalty,drop-slack
+m047,g047,retry gap,80,72,28,100,276,ship,recovery,confidence-floor,raise-drag
+m048,g048,output drift,47,55,42,48,113,hold,negative,lane-boundary,lower-confidence
+m049,g049,stage pressure,43,49,33,89,158,watch,baseline,monotonic-signal,raise-signal
+m050,g050,backpressure,31,2,9,21,67,hold,edge,drag-penalty,drop-slack
+m051,g051,retry gap,77,68,27,78,246,ship,recovery,confidence-floor,raise-drag
+m052,g052,output drift,59,63,27,55,182,ship,negative,lane-boundary,lower-confidence
+m053,g053,stage pressure,107,63,32,67,280,ship,baseline,monotonic-signal,raise-signal
+m054,g054,backpressure,77,12,15,28,164,watch,edge,drag-penalty,drop-slack
+m055,g055,retry gap,114,13,36,56,225,ship,recovery,confidence-floor,raise-drag
+m056,g056,output drift,48,45,37,62,129,watch,negative,lane-boundary,lower-confidence
+m057,g057,stage pressure,71,64,22,46,208,ship,baseline,monotonic-signal,raise-signal
+m058,g058,backpressure,73,30,37,79,181,ship,edge,drag-penalty,drop-slack
+m059,g059,retry gap,38,67,47,100,149,watch,recovery,confidence-floor,raise-drag
+m060,g060,output drift,112,47,28,8,223,ship,negative,lane-boundary,lower-confidence
+m061,g061,stage pressure,117,40,44,37,223,ship,baseline,monotonic-signal,raise-signal
+m062,g062,backpressure,110,63,33,49,266,ship,edge,drag-penalty,drop-slack
+m063,g063,retry gap,50,58,15,60,188,ship,recovery,confidence-floor,raise-drag
+m064,g064,output drift,88,53,18,14,207,ship,negative,lane-boundary,lower-confidence
+m065,g065,stage pressure,119,53,24,101,344,ship,baseline,monotonic-signal,raise-signal
+m066,g066,backpressure,81,9,29,99,212,ship,edge,drag-penalty,drop-slack
+m067,g067,retry gap,70,41,40,60,161,watch,recovery,confidence-floor,raise-drag
+m068,g068,output drift,68,19,15,75,200,ship,negative,lane-boundary,lower-confidence
+m069,g069,stage pressure,79,46,8,20,208,ship,baseline,monotonic-signal,raise-signal
+m070,g070,backpressure,75,16,6,77,231,ship,edge,drag-penalty,drop-slack
+m071,g071,retry gap,81,20,34,67,181,ship,recovery,confidence-floor,raise-drag
+m072,g072,output drift,43,19,18,53,122,hold,negative,lane-boundary,lower-confidence
+m073,g073,stage pressure,125,21,36,27,226,ship,baseline,monotonic-signal,raise-signal
+m074,g074,backpressure,68,48,5,55,229,ship,edge,drag-penalty,drop-slack
+m075,g075,retry gap,47,46,19,74,176,ship,recovery,confidence-floor,raise-drag
+m076,g076,output drift,84,77,17,32,243,ship,negative,lane-boundary,lower-confidence
+m077,g077,stage pressure,115,60,42,78,284,ship,baseline,monotonic-signal,raise-signal
+m078,g078,backpressure,33,43,14,99,180,ship,edge,drag-penalty,drop-slack
+m079,g079,retry gap,88,18,29,20,156,watch,recovery,confidence-floor,raise-drag
+m080,g080,output drift,75,73,7,23,232,ship,negative,lane-boundary,lower-confidence
+m081,g081,stage pressure,81,68,22,48,234,ship,baseline,monotonic-signal,raise-signal
+m082,g082,backpressure,30,57,25,59,126,watch,edge,drag-penalty,drop-slack
+m083,g083,retry gap,100,28,20,26,214,ship,recovery,confidence-floor,raise-drag
+m084,g084,output drift,51,18,29,87,149,watch,negative,lane-boundary,lower-confidence
+m085,g085,stage pressure,39,50,18,98,190,ship,baseline,monotonic-signal,raise-signal
+m086,g086,backpressure,67,58,35,59,181,ship,edge,drag-penalty,drop-slack
+m087,g087,retry gap,89,46,52,87,207,ship,recovery,confidence-floor,raise-drag
+m088,g088,output drift,103,72,9,92,352,ship,negative,lane-boundary,lower-confidence
+m089,g089,stage pressure,123,52,14,76,346,ship,baseline,monotonic-signal,raise-signal
+m090,g090,backpressure,79,34,18,66,222,ship,edge,drag-penalty,drop-slack
+m091,g091,retry gap,65,9,49,65,106,hold,recovery,confidence-floor,raise-drag
+m092,g092,output drift,61,63,35,13,128,watch,negative,lane-boundary,lower-confidence
+m093,g093,stage pressure,72,58,33,54,190,ship,baseline,monotonic-signal,raise-signal
+m094,g094,backpressure,91,47,12,73,278,ship,edge,drag-penalty,drop-slack
+m095,g095,retry gap,41,25,52,44,47,hold,recovery,confidence-floor,raise-drag
+m096,g096,output drift,63,46,21,64,194,ship,negative,lane-boundary,lower-confidence

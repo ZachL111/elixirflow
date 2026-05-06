@@ -1,0 +1,97 @@
+id,focus,signal,slack,drag,confidence,score,lane,kind,invariant
+g001,stage pressure,56,57,9,82,233,ship,baseline,monotonic-signal
+g002,backpressure,94,37,30,103,268,ship,edge,drag-penalty
+g003,retry gap,116,30,21,24,244,ship,recovery,confidence-floor
+g004,output drift,87,64,39,40,200,ship,negative,lane-boundary
+g005,stage pressure,76,48,8,52,236,ship,baseline,monotonic-signal
+g006,backpressure,74,43,15,63,224,ship,edge,drag-penalty
+g007,retry gap,76,43,20,30,185,ship,recovery,confidence-floor
+g008,output drift,81,10,45,104,186,ship,negative,lane-boundary
+g009,stage pressure,87,31,17,102,273,ship,baseline,monotonic-signal
+g010,backpressure,49,9,25,63,120,hold,edge,drag-penalty
+g011,retry gap,34,36,10,91,175,ship,recovery,confidence-floor
+g012,output drift,74,17,25,23,138,watch,negative,lane-boundary
+g013,stage pressure,53,10,28,80,140,watch,baseline,monotonic-signal
+g014,backpressure,90,9,16,70,227,ship,edge,drag-penalty
+g015,retry gap,112,11,32,69,240,ship,recovery,confidence-floor
+g016,output drift,39,49,21,30,115,hold,negative,lane-boundary
+g017,stage pressure,94,36,38,58,206,ship,baseline,monotonic-signal
+g018,backpressure,81,67,6,77,294,ship,edge,drag-penalty
+g019,retry gap,78,50,12,48,230,ship,recovery,confidence-floor
+g020,output drift,36,44,17,81,163,watch,negative,lane-boundary
+g021,stage pressure,106,8,21,102,280,ship,baseline,monotonic-signal
+g022,backpressure,57,63,45,23,110,hold,edge,drag-penalty
+g023,retry gap,36,58,38,39,93,hold,recovery,confidence-floor
+g024,output drift,73,58,36,51,183,ship,negative,lane-boundary
+g025,stage pressure,95,18,15,62,240,ship,baseline,monotonic-signal
+g026,backpressure,109,8,6,29,243,ship,edge,drag-penalty
+g027,retry gap,32,40,24,103,159,watch,recovery,confidence-floor
+g028,output drift,85,59,35,101,260,ship,negative,lane-boundary
+g029,stage pressure,71,36,42,62,156,watch,baseline,monotonic-signal
+g030,backpressure,67,62,5,90,276,ship,edge,drag-penalty
+g031,retry gap,69,42,30,22,142,watch,recovery,confidence-floor
+g032,output drift,97,35,44,79,220,ship,negative,lane-boundary
+g033,stage pressure,47,69,10,69,212,ship,baseline,monotonic-signal
+g034,backpressure,69,53,37,68,185,ship,edge,drag-penalty
+g035,retry gap,40,48,10,29,137,watch,recovery,confidence-floor
+g036,output drift,117,48,13,57,313,ship,negative,lane-boundary
+g037,stage pressure,115,15,43,76,235,ship,baseline,monotonic-signal
+g038,backpressure,117,36,17,47,283,ship,edge,drag-penalty
+g039,retry gap,34,14,6,80,150,watch,recovery,confidence-floor
+g040,output drift,40,41,23,101,176,ship,negative,lane-boundary
+g041,stage pressure,90,22,33,22,158,watch,baseline,monotonic-signal
+g042,backpressure,75,15,39,38,125,watch,edge,drag-penalty
+g043,retry gap,115,14,44,50,206,ship,recovery,confidence-floor
+g044,output drift,94,16,6,61,253,ship,negative,lane-boundary
+g045,stage pressure,43,54,30,28,108,hold,baseline,monotonic-signal
+g046,backpressure,65,41,23,102,227,ship,edge,drag-penalty
+g047,retry gap,80,72,21,100,290,ship,recovery,confidence-floor
+g048,output drift,47,55,42,61,126,watch,negative,lane-boundary
+g049,stage pressure,34,49,33,89,140,watch,baseline,monotonic-signal
+g050,backpressure,31,13,9,21,78,hold,edge,drag-penalty
+g051,retry gap,77,68,20,78,260,ship,recovery,confidence-floor
+g052,output drift,59,63,27,68,195,ship,negative,lane-boundary
+g053,stage pressure,98,63,32,67,262,ship,baseline,monotonic-signal
+g054,backpressure,77,23,15,28,175,ship,edge,drag-penalty
+g055,retry gap,114,13,29,56,239,ship,recovery,confidence-floor
+g056,output drift,48,45,37,75,142,watch,negative,lane-boundary
+g057,stage pressure,62,64,22,46,190,ship,baseline,monotonic-signal
+g058,backpressure,73,41,37,79,192,ship,edge,drag-penalty
+g059,retry gap,38,67,40,100,163,watch,recovery,confidence-floor
+g060,output drift,112,47,28,21,236,ship,negative,lane-boundary
+g061,stage pressure,108,40,44,37,205,ship,baseline,monotonic-signal
+g062,backpressure,110,74,33,49,277,ship,edge,drag-penalty
+g063,retry gap,50,58,8,60,202,ship,recovery,confidence-floor
+g064,output drift,88,53,18,27,220,ship,negative,lane-boundary
+g065,stage pressure,110,53,24,101,326,ship,baseline,monotonic-signal
+g066,backpressure,81,20,29,99,223,ship,edge,drag-penalty
+g067,retry gap,70,41,33,60,175,ship,recovery,confidence-floor
+g068,output drift,68,19,15,88,213,ship,negative,lane-boundary
+g069,stage pressure,70,46,8,20,190,ship,baseline,monotonic-signal
+g070,backpressure,75,27,6,77,242,ship,edge,drag-penalty
+g071,retry gap,81,20,27,67,195,ship,recovery,confidence-floor
+g072,output drift,43,19,18,66,135,watch,negative,lane-boundary
+g073,stage pressure,116,21,36,27,208,ship,baseline,monotonic-signal
+g074,backpressure,68,59,5,55,240,ship,edge,drag-penalty
+g075,retry gap,47,46,12,74,190,ship,recovery,confidence-floor
+g076,output drift,84,77,17,45,256,ship,negative,lane-boundary
+g077,stage pressure,106,60,42,78,266,ship,baseline,monotonic-signal
+g078,backpressure,33,54,14,99,191,ship,edge,drag-penalty
+g079,retry gap,88,18,22,20,170,watch,recovery,confidence-floor
+g080,output drift,75,73,7,36,245,ship,negative,lane-boundary
+g081,stage pressure,72,68,22,48,216,ship,baseline,monotonic-signal
+g082,backpressure,30,68,25,59,137,watch,edge,drag-penalty
+g083,retry gap,100,28,13,26,228,ship,recovery,confidence-floor
+g084,output drift,51,18,29,100,162,watch,negative,lane-boundary
+g085,stage pressure,30,50,18,98,172,watch,baseline,monotonic-signal
+g086,backpressure,67,69,35,59,192,ship,edge,drag-penalty
+g087,retry gap,89,46,45,87,221,ship,recovery,confidence-floor
+g088,output drift,103,72,9,105,365,ship,negative,lane-boundary
+g089,stage pressure,114,52,14,76,328,ship,baseline,monotonic-signal
+g090,backpressure,79,45,18,66,233,ship,edge,drag-penalty
+g091,retry gap,65,9,42,65,120,hold,recovery,confidence-floor
+g092,output drift,61,63,35,26,141,watch,negative,lane-boundary
+g093,stage pressure,63,58,33,54,172,watch,baseline,monotonic-signal
+g094,backpressure,91,58,12,73,289,ship,edge,drag-penalty
+g095,retry gap,41,25,45,44,61,hold,recovery,confidence-floor
+g096,output drift,63,46,21,77,207,ship,negative,lane-boundary
